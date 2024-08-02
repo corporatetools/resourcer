@@ -2,8 +2,8 @@
 
 The Resourcer Pattern is a design pattern that augments ActiveRecord objects with additional information, preloading related data efficiently and providing easy access to it. This pattern aims to eliminate N+1 query problems and centralize the complexities of loading related data, retrofitting it onto any queried data set. The core idea is to “pack” the big picture into each object, ensuring it carries related data with it, usable even when passed deeply into other nested methods.
 
-- For more about why this exists: [Purpose of Resourcer Pattern](libe/resourcer/documentation/purpose.md)
-- For full documentation: [Documentation](libe/resourcer/documentation/documentation.md)
+- For more about why this exists: [Purpose of Resourcer Pattern](lib/resourcer/documentation/purpose.md)
+- For full documentation: [Documentation](lib/resourcer/documentation/documentation.md)
 
 ## Key Components
 
