@@ -38,7 +38,7 @@ This module contains methods mixed into each ObjectResourcer. Each ListResourcer
 ```ruby
 # Basic usage example
 
-account_id_list = ['eeba3947-b1a8-4485-992b-2f245a317f46', '2e6ef539-bcd3-47c2-8316-ce8ecbe2defc']
+account_id_list = [43577, 5871028, 85718]
 company_relation = Company.by_owner_account(account_id_list)
 
 company_list_resourcer = CompanyResourcer.new(company_relation)
